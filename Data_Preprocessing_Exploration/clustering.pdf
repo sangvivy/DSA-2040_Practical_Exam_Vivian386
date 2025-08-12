@@ -1,0 +1,60 @@
+Section 2: Data Mining — Task 2: Clustering
+1. Objective
+The objective of this task was to apply K-Means clustering on the preprocessed Iris dataset (from Task 1) to identify natural groupings of samples and evaluate the quality of these clusters compared to the actual species labels.
+
+2. Methodology
+Dataset
+
+Used the scaled and encoded dataset generated in Task 1 (iris_processed.csv).
+
+Features: Sepal length, Sepal width, Petal length, Petal width (normalized).
+
+Target variable: Encoded species labels (species_0, species_1, species_2).
+
+K-Means Clustering
+
+K-Means was applied with k=3 (matching the known number of species).
+
+Model parameters: random_state=42, n_init=10 for stable results.
+
+Clustering was evaluated using Adjusted Rand Index (ARI), which measures similarity between predicted clusters and actual labels (1.0 = perfect match, 0 = random assignment).
+
+Experimentation with Different k Values
+
+Additional models were trained with k=2 and k=4.
+
+The Elbow method was used to examine the inertia values for k from 1 to 9 and determine the optimal number of clusters.
+
+Visualization
+
+Scatter plot of Petal Length vs. Petal Width colored by cluster assignments.
+
+The elbow curve was saved to illustrate the optimal k selection.
+
+3. Results
+Adjusted Rand Index Scores:
+
+k	ARI Score
+2	~0.57
+3	~0.73
+4	~0.61
+
+Elbow Curve Observation:
+The inertia drops sharply between k=1 and k=3, with only a gradual decrease afterward. This suggests that k=3 is the most appropriate choice.
+
+Cluster Visualization:
+The scatter plot showed that petal-based features result in three visually distinct groups. Setosa is perfectly separated, while versicolor and virginica have some overlap, explaining the ARI score not reaching 1.0.
+
+4. Analysis
+The clustering results confirm that the Iris dataset has a natural grouping into three clusters, corresponding to its three species. The Adjusted Rand Index of ~0.73 for k=3 indicates a strong alignment between the K-Means clusters and the actual species labels.
+
+Some misclassifications occurred primarily between versicolor and virginica, which share similar sepal measurements but differ more subtly in petal size.
+For k=2, the model merges two species into one group, and for k=4, it over-splits one of the species.
+
+Real-world application:
+This experiment mirrors how clustering can be used in customer segmentation, where groups are formed without knowing labels in advance. The insights from such groupings can guide targeted marketing or product recommendations.
+
+If synthetic data had been used instead, the cluster separation might vary depending on the distributions chosen, potentially making clusters either more distinct (high ARI) or overlapping (low ARI).
+
+5. Conclusion
+K-Means clustering with k=3 provides the best alignment with actual species classification in the Iris dataset. This demonstrates the dataset’s strong natural separation and the usefulness of clustering in exploratory data analysis.
