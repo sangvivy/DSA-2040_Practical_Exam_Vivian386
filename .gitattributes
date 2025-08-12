@@ -1,0 +1,24 @@
+# Auto-detect text files and normalize line endings to LF in the repo
+* text=auto
+
+# Force Python scripts and shell scripts to use LF line endings
+*.py text eol=lf
+*.sh text eol=lf
+
+# Treat Jupyter notebooks as JSON text files
+*.ipynb text
+
+# Treat images and binary data files as binary (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.db binary
+*.sqlite binary
+
+# CSV files are text, normalize line endings
+*.csv text eol=lf
+
+# Disable merge conflicts for lock files (optional)
+*.lock merge=ours
+

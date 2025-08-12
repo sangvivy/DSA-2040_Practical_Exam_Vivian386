@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Include your CSV and DB files, so no ignore here for those
+
+# Virtual environment folders (none, so no ignore)
+
+# VS Code settings
+.vscode/
+
+# Logs (ignore just in case)
+*.log
+
+# Mac system files
+.DS_Store
+
+# Python egg metadata and build folders
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# pytest cache (if you ever use pytest)
+.pytest_cache/
+
+# Backup files
+*~
