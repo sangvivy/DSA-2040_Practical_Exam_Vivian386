@@ -37,12 +37,11 @@ The objective of this task was to apply K-Means clustering on the preprocessed I
 3. Results
 Adjusted Rand Index Scores:
 
-k|	ARI Score|
-_____________|
-2|	~0.57    |
-3|	~0.73    |
-4|	~0.61    |
- |___________|
+k	ARI Score
+2	~0.57    
+3	~0.73   
+4	~0.61   
+ 
 
 
 - Elbow Curve Observation:
