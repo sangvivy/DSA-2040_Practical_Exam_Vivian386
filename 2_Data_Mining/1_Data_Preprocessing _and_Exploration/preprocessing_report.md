@@ -70,13 +70,10 @@ The target species column was converted into one-hot encoded columns (species_0,
 - A reusable function was created to split the dataset into training (80%) and testing (20%) sets:
 
 ```
-python
-Copy code
 from sklearn.model_selection import train_test_split
 
 def split_data(X, y, test_size=0.2, random_state=42):
     return train_test_split(X, y, test_size=test_size, random_state=random_state)
-
 ```
 
 This ensures reproducible splits for downstream modeling.
