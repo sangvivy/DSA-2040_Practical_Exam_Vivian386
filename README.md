@@ -66,6 +66,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 ```
 # DATA WAREHOUSING
 
+## 1. Data Warehouse Design
+
 ## Star schema design (summary)
 
 
