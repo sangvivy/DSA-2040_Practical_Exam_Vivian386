@@ -1,0 +1,5 @@
+store_id,store_name,region,city,store_type
+1,"Downtown Store",Central,Nairobi,Retail
+2,"Coastal Mall",Coast,Mombasa,Retail
+3,"Quick Mart",Nyanza,Kisumu,Retail
+4,Kamakis,Rift,Eldoret,Retail

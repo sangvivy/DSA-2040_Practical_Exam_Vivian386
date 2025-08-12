@@ -1,0 +1,5 @@
+product_id,product_sku,product_name,category,sub_category,brand,unit,cost_price,list_price
+1,ELEC001,"Smartphone X",Electronics,Phones,TechBrand,piece,300.00,500.00
+2,ELEC002,"Laptop Pro",Electronics,Computers,CompTech,piece,800.00,1200.00
+3,CLOT001,"T-Shirt Cotton",Clothing,Tops,FashionCo,piece,5.00,15.00
+4,CLOT002,"Jeans Slim Fit",Clothing,Bottoms,DenimWorld,piece,20.00,45.00
