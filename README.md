@@ -149,7 +149,12 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
     - Pairplot and correlation heatmap with seaborn
 
+    ![alt text](image-8.png) ![alt text](image-9.png)
+
     - Outlier detection using boxplots
+
+    ![alt text](image-7.png)
+
 
 ## 2. Clustering
 
@@ -157,9 +162,15 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
 - Evaluated with Adjusted Rand Index (ARI).
 
+![alt text](image-6.png)
+
 - Experimented with k=2 and k=4; plotted elbow curve for optimal k.
 
+![alt text](image-4.png)
+
 - Visualized clusters (petal length vs petal width).
+
+![alt text](image-5.png)
 
 - Discussed cluster quality and real-world applicability.
 
@@ -171,7 +182,11 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
 - Visualized decision tree using sklearn’s plot_tree.
 
+![alt text](image-2.png)
+
 - Analysis explained why one model performed better.
+
+![alt text](image-3.png)
 
 ## 4. Association Rule Mining
 
@@ -184,6 +199,8 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 - Extracted top 5 rules by lift.
 
 ![alt text](image-1.png)
+
+
 
 - Analyzed rule implications for retail recommendations.
 
