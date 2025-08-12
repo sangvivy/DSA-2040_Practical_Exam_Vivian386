@@ -177,9 +177,13 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
 - Generated synthetic transactional basket data with frequent co-occurrences.
 
+![alt text](image.png)
+
 - Applied Apriori algorithm (mlxtend) with min_support=0.2, min_confidence=0.5.
 
 - Extracted top 5 rules by lift.
+
+![alt text](image-1.png)
 
 - Analyzed rule implications for retail recommendations.
 
