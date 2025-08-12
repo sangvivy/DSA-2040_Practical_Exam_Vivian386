@@ -99,7 +99,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 
 - Inventory / sales trends by store or region (dim_store + sales_fact + dim_time)
 
-(For inventory tracking you could add an inventory_fact or extend dim_product with reorder_level / current_stock, but the above meets the task requirements.)
 
 ### Why star schema 
 Star schema denormalizes attributes into wide dimension tables for fast, simple joins against a single fact table — ideal for typical OLAP queries (aggregations, rollups, slicing). It reduces join complexity and improves query performance for reporting and BI (at the acceptable cost of some redundancy), so it’s preferred over snowflake for read-heavy analytics workloads.
