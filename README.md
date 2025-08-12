@@ -151,7 +151,7 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
     ![alt text](images/image-8.png) 
 
-     ![alt text](images/image-9.png)
+    ![alt text](images/image-9.png)
 
     - Outlier detection using boxplots
 
