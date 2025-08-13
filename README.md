@@ -89,7 +89,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 
 - dim_store — store/location attributes (store_id, store_name, region, city, store_type)
 
-![alt text](images/image.png)
+
 
 #### This supports queries like:
 
@@ -147,16 +147,11 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
     - Summary statistics with pandas.describe()
 
-    - Pairplot and correlation heatmap with seaborn
-
-    ![alt text](images/image-8.png) 
-
-    ![alt text](images/image-9.png)
+    - Pairplot and correlation heatmap with seaborn   
 
     - Outlier detection using boxplots
 
-    ![alt text](images/image-7.png)
-
+    
 
 ## 2. Clustering
 
@@ -164,15 +159,9 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
 - Evaluated with Adjusted Rand Index (ARI).
 
-![alt text](images/image-6.png)
-
 - Experimented with k=2 and k=4; plotted elbow curve for optimal k.
 
-![alt text](images/image-4.png)
-
 - Visualized clusters (petal length vs petal width).
-
-![alt text](images/image-5.png)
 
 - Discussed cluster quality and real-world applicability.
 
@@ -184,25 +173,15 @@ Star schema denormalizes attributes into wide dimension tables for fast, simple 
 
 - Visualized decision tree using sklearn’s plot_tree.
 
-![alt text](images/image-2.png)
-
 - Analysis explained why one model performed better.
-
-![alt text](images/image-3.png)
 
 ## 4. Association Rule Mining
 
 - Generated synthetic transactional basket data with frequent co-occurrences.
 
-![alt text](images/image-0.png)
-
 - Applied Apriori algorithm (mlxtend) with min_support=0.2, min_confidence=0.5.
 
 - Extracted top 5 rules by lift.
-S
-![alt text](images/image-1.png)
-
-
 
 - Analyzed rule implications for retail recommendations.
 
